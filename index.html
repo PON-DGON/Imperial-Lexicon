@@ -1,0 +1,13 @@
+<ul>
+    {% for key, words in site.data.dictionary %}
+      <li>
+        <strong>{{ key }}</strong>
+        <ul>
+        {% for word in words %}
+          <li>{{ word }}</li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+    
