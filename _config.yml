@@ -35,6 +35,12 @@ defaults:
     values:
       layout: "default"
 
+# _config.yml
+collections:
+  dictionary:
+    output: true
+
+
 
 # Build settings
 theme: minima
